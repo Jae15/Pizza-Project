@@ -1,31 +1,24 @@
-
-.item img{
-    height: 300px;
-    width: 350px;
+.pizza {
+    background-image: url("/images/p1.jpeg");
+    padding-bottom: 50%;
+    background-position: center;
+}
+.welcome {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: black;
+    text-shadow: 2px 2px 5px green;
+    font-size: 25px;
+}
+.design,
+label {
+    background-color: rgb(187, 119, 17);
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
 }
 
-.one{
-    display: flex;
-}
-
-.two{
-    display: flex;
-}
-
-.three{
-    display: flex;
-}
-
-
-/* #piz{
-    display: none;
-} */
-
-
-
-/* .wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-} */
