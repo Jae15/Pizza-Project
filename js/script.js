@@ -17,3 +17,8 @@ function Pizza(pizzaSize, crustType,toppings){
     this.crustType=crustType;
     this.toppings=toppings;
 }
+
+//prototype
+
+Pizza.prototype.totalprice=function(){
+    
