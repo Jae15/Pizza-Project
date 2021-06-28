@@ -11,4 +11,6 @@ console.log(newPizza.totalprice())
 
 });
 
-$('#itemList').append("<p> Pizza </p>");
+//constructor
+function Pizza(pizzaSize, crustType,toppings){
+    
