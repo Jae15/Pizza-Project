@@ -22,3 +22,5 @@ function Pizza(pizzaSize, crustType,toppings){
 
 Pizza.prototype.totalprice=function(){
     var total=parseInt(this.pizzaSize) + parseInt(this.crustType)+ parseInt(this.toppings)
+    return total
+}
