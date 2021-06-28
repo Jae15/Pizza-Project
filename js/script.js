@@ -13,4 +13,5 @@ console.log(newPizza.totalprice())
 
 //constructor
 function Pizza(pizzaSize, crustType,toppings){
+    this.pizzaSize=pizzaSize;
     
