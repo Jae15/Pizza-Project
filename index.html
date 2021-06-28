@@ -15,9 +15,10 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      </script>
-      <script src="js/script.js"></script>
+      src =
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js";
+    </script>
+    <script src="js/script.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,52 +29,106 @@
     <title>pizaa</title>
   </head>
   <body>
-   
-      <h2>TOTAL:</h2>
-      <h4 id="total-cost "></h4>
+    <div class="container">
+      <div class="pizza">
+        <div class="welcome">
+          <h1>WELCOME TO OUR PIZZA PLACE</h1>
+          <p>WE ARE OPEN 24HRS A DAY</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="text-center mt-lg-5">SELECT THE ITEMS YOU WANT TO BUY</h2>
+      <form id="buy-items" class="design mt-lg-4">
+        <label for="size "> PIZZA SIZE</label>
+        <select
+          class="form-select pizza-size"
+          aria-label="Default select example "
+        >
+          <option selected>Choose the Pizza Size</option>
+          <option value="850">Small</option>
+          <option value="950">Medium</option>
+          <option value="1050">Large</option>
+        </select>
+        <label for="size "> CRUST</label>
+        <select
+          class="form-select crust-type"
+          aria-label="Default select example "
+        >
+          <option selected>Choose crust</option>
+          <option value="150">Crispy</option>
+          <option value="250">Stuffed</option>
+          <option value="300">Gluten-free</option>
+        </select>
+        <label for="size "> TOPPINGS</label>
+        <select
+          class="form-select toppings"
+          aria-label="Default select example "
+        >
+          <option selected>Choose Toppings</option>
+          <option value="100">Broccolini</option>
+          <option value="130">mushroom</option>
+          <option value="300">Onions</option>
+        </select>
+        <label for="exampleFormControlInput1 " class="form-label"
+          >NUMBER OF PIZZAS</label
+        >
+        <input type="NUMBER " class="form-control" id="inputnumberofpizzas " />
+        <button type="submit " class="btn checkout">Checkout</button>
+      </form>
+
+      <div class="container">
+        <div class="pizza">
+          <div class="welcome">
+            <h1>WELCOME TO OUR PIZZA PLACE</h1>
+            <p>WE ARE OPEN 24HRS A DAY</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="text-center mt-lg-5">SELECT THE ITEMS YOU WANT TO BUY</h2>
+        <form id="buy-items" class="design mt-lg-4">
+          <label for="size "> PIZZA SIZE</label>
+          <select
+            class="form-select pizza-size"
+            aria-label="Default select example "
+          >
+            <option selected>Choose the Pizza Size</option>
+            <option value="850">Small</option>
+            <option value="950">Medium</option>
+            <option value="1050">Large</option>
+          </select>
+          <label for="size "> CRUST</label>
+          <select
+            class="form-select crust-type"
+            aria-label="Default select example "
+          >
+            <option selected>Choose crust</option>
+            <option value="150">Crispy</option>
+            <option value="250">Stuffed</option>
+            <option value="300">Gluten-free</option>
+          </select>
+          <label for="size "> TOPPINGS</label>
+          <select
+            class="form-select toppings"
+            aria-label="Default select example "
+          >
+            <option selected>Choose Toppings</option>
+            <option value="100">Broccolini</option>
+            <option value="130">mushroom</option>
+            <option value="300">Onions</option>
+          </select>
+          <label for="exampleFormControlInput1 " class="form-label"
+            >NUMBER OF PIZZAS</label
+          >
+          <input
+            type="NUMBER "
+            class="form-control"
+            id="inputnumberofpizzas "
+          />
+          <button type="submit " class="btn checkout">Checkout</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
-<body>
-    <div class="container">
-    <div class="pizza">
-    <div class="welcome">
-    <h1>WELCOME TO OUR PIZZA PLACE</h1>
-    <p>WE ARE OPEN 24HRS A DAY</p>
-    </div>
-    </div>
-    </div>
-
-    <div class="container">
-        <h2 class="text-center mt-lg-5">SELECT THE ITEMS YOU WANT TO BUY</h2>
-        <form id="buy-items" class="design mt-lg-4">
-        <label for="size "> PIZZA SIZE</label>
-        <select class="form-select pizza-size" aria-label="Default select example ">
-        <option selected>Choose the Pizza Size</option>
-        <option value="850">Small</option>
-        <option value="950">Medium</option>
-        <option value="1050">Large</option>
-        </select>
-        <label for="size "> CRUST</label>
-<select class="form-select crust-type" aria-label="Default select example ">
-<option selected>Choose crust</option>
-<option value="150">Crispy</option>
-<option value="250">Stuffed</option>
-<option value="300">Gluten-free</option>
-</select>
-
-<label for="size "> TOPPINGS</label>
-<select class="form-select toppings" aria-label="Default select example ">
-<option selected>Choose Toppings</option>
-<option value="100">Broccolini</option>
-<option value="130">mushroom</option>
-<option value="300">Onions</option>
-</select>
-
-<label for="exampleFormControlInput1 " class="form-label"
->NUMBER OF PIZZAS</label
->
-<input type="NUMBER " class="form-control" id="inputnumberofpizzas " />
-<button type="submit " class="btn checkout">Checkout</button>
-</form>
-
