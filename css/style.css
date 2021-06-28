@@ -13,5 +13,15 @@
     font-size: 25px;
 }
 
+.design,
+label {
+    background-color: rgb(187, 119, 17);
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
 
 
