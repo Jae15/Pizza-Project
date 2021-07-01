@@ -46,9 +46,9 @@
           aria-label="Default select example "
         >
           <option selected>Choose the Pizza Size</option>
-          <option value="850">Small</option>
-          <option value="950">Medium</option>
-          <option value="1050">Large</option>
+          <option value="750">Small @750</option>
+          <option value="850">Medium @850</option>
+          <option value="1150">Large @1150 </option>
         </select>
         <label for="size "> CRUST</label>
         <select
@@ -56,9 +56,9 @@
           aria-label="Default select example "
         >
           <option selected>Choose crust</option>
-          <option value="150">Crispy</option>
-          <option value="250">Stuffed</option>
-          <option value="300">Gluten-free</option>
+          <option value="200">Crispy @200</option>
+          <option value="250">Stuffed @250</option>
+          <option value="300">Gluten-free @300</option>
         </select>
         <label for="size "> TOPPINGS</label>
         <select
@@ -66,15 +66,21 @@
           aria-label="Default select example "
         >
           <option selected>Choose Toppings</option>
-          <option value="100">Pepperoni</option>
-          <option value="130">mushroom</option>
-          <option value="300">Extra cheese</option>
+          <option value="200">Pepperoni @200</option>
+          <option value="200">mushroom @200</option>
+          <option value="300">Extra cheese @300</option>
         </select>
-        <label for="exampleFormControlInput1 " class="form-label"
-          >NUMBER OF PIZZAS</label
-        >
-        <input type="NUMBER " class="form-control" id="inputnumberofpizzas " />
-        <button type="submit " class="btn checkout">Checkout</button>
+
+
+        <label for="exampleFormControlInput1" class="form-label"
+          >NUMBER OF PIZZAS</label>
+          
+        <input type="number" class="form-control pizzano" id="inputnumberofpizzas " />
+        <button type="submit " class="btn checkout">Checkout      Total Price</button>
+    <span id="totalprice"> 
+
+    </span>
+        <!-- <h4 id="output"></h4> -->
       </form>
       </div>
     </div>
